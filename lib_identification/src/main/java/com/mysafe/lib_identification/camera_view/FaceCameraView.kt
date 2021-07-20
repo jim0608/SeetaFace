@@ -153,7 +153,6 @@ class FaceCameraView @JvmOverloads constructor(
         super.onMeasure(widthMeasureSpec, heightMeasureSpec)
     }
 
-    // TODO(b/124269166): Rethink how we can handle permissions here.
     @SuppressLint("MissingPermission")
     override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
         // In case that the CameraView size is always set as 0x0, we still need to trigger to force

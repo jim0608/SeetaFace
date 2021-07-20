@@ -74,7 +74,6 @@ class FaceCameraHelper(
     fun startCamera() {
         Futures.addCallback(ProcessCameraProvider.getInstance(mContext),
                 object : FutureCallback<ProcessCameraProvider?> {
-                    // TODO(b/124269166): Rethink how we can handle permissions here.
                     @SuppressLint("MissingPermission")
                     override fun onSuccess(provider: ProcessCameraProvider?) {
                         Preconditions.checkNotNull(provider)
@@ -251,7 +250,6 @@ class FaceCameraHelper(
      * 在当前摄像头基础上切换到另一个摄像头
      */
     fun toggleCamera() {
-        // TODO(b/124269166): Rethink how we can handle permissions here.
         @SuppressLint("MissingPermission") val availableCameraLensFacing = getAvailableCameraLensFacing()
         if (availableCameraLensFacing.isEmpty()) {
             return
