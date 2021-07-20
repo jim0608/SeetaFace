@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SeetaFace</string>
+    <string name="str_face_image">图像检测</string>
+    <string name="str_face_match">人脸匹配</string>
+    <string name="str_face_detection">人脸检测</string>
+    <string name="str_face_identify">人脸识别</string>
+    <string name="str_face_transpose">图像转置</string>
+    <string name="str_face_X">图像X轴方向翻转</string>
+    <string name="str_face_Y">图像Y轴方向翻转</string>
+    <string name="str_feature_points">人脸特征点检测</string>
+
+    <string name="str_identify_register">人脸注册</string>
+</resources>
