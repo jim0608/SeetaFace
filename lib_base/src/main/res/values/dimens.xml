@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stan_dialog_textsize_title">28sp</dimen>
+    <dimen name="stan_dialog_textsize_content">26sp</dimen>
+</resources>

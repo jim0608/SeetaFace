@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_black_shadow">#80000000</color>
+    <color name="color_face_unknown">#80399999</color>
+    <color name="color_face_success">#10A8FF</color>
+    <color name="color_face_failed">#FF5E52</color>
+</resources>
